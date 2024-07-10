@@ -14,6 +14,7 @@ public class User {
 
     @Column(nullable = false)
     private String password;
+    private String pass;
 
     public Long getId() {
         return id;
